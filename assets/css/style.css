@@ -1,19 +1,19 @@
 body {
     background-image: url("https://www.pastepic.xyz/images/2018/07/10/organic-tilesc4af602b48b7317a.png");
 }
-header {
+h1 {
     color: #4aaaa5;
     font-size: 25px;
+    padding-left: 25px;
+    padding-top: 40px;
 }
-#nav {
-height: 90px; 
 
-/* background-color: white;    */
-
+#header {
+    width: 100%;
 }
 #box {
     position: relative;
-    height: 60px;
+    height: 100%;
     width: 150px;
     background-color:#4aaaa5;
     z-index: 2;
@@ -23,49 +23,41 @@ height: 90px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
     color: white;
-    right: -114px;
-    bottom: -55px;
+    right: -426px;
+    bottom: -26px;
     
 }
-ul {
-    width: 976px;
-    list-style: none;
-    margin: 0;
-    padding: 0px;
-    overflow: hidden;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    background-color: white;
-    padding-left: 20px;
-    padding-right: 149px;
-    
-}
+
 li {
     display: inline;
     float: right;
+    margin-right: 15px;
 }
 li a {
     display: block;
-    padding: 8px;
+    padding-bottom: 0;;
 }
 
 
 ul {
     list-style-type: none;
     margin: 0;
-    padding-top: 20px;
     overflow: hidden;
     background: white; 
     color: #777777;
-    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 20px;
 }
     
 .container {
  background-color: white;
- margin: 0 auto;
- width: 870px;
+ margin-left: 450px;
+ 
+ width: 976px;
 margin-top: 80px; 
-padding-bottom: 10px;
+margin-bottom: 195px;
+/* padding-bottom: 10px; */
 border-style: solid;
 border-width: 1px;
 border-color: #dddddd;
@@ -73,16 +65,37 @@ border-color: #dddddd;
 p {
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    margin: 25px;
        
 }
 img {
     float: left;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
+    border-style: solid;   
+    border-width: 1px;
+    border-color:  #dddddd;
+    margin-right: 15px;
 }
-footer {
-
+.footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: #777777;
+color: white;
+text-align: center;
+border-top: solid;
+border-width: 10px;
+border-color: #4aaaa5;
 }
 h5 {
     text-align: center;
+}
+hr {
+    width: 94%;
+    height: 2px;
+    background-color:  #cccccc;
 }
