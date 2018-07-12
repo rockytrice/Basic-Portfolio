@@ -98,13 +98,24 @@ header {
    height: 80px; 
    font-family: Georgia, 'Times New Roman', Times, serif;
    font-size: 25px;
-   color: #4aaaa5;
+   color: white;
    border-bottom: #cccccc;
    border-style: solid;
    border-width: 1px;
+   text-align: center;
 
 }
 .nav {
 text-align: right;
 margin-right: 250px;
+margin-top: -57px;
+}
+.logo {
+    margin-left: 122px;
+    border-style: solid;
+    width: 211px;
+    height: 58px;
+    background-color: #4aaaa5;
+    padding-top: 17px;
+    margin-top: 5;
 }
