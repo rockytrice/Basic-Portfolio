@@ -16,27 +16,25 @@
             </ul>
     
     
-    <div class="container">
-         <header>Contact</header>
+    <div class="contact-form">
+         <h1>Contact</h1>
          <hr>
-        <label for="name">Name</label>
-        <br>
-        <input type="text" id="name" name="name" placeholder="John Smith">
-        <br>
-        <label for="email">Email</label>
-        <br>
-        <input type="text" id="email" name="Email" placeholder="example@gmail.com">
-        <br>
-        <label for="msg">Message</label>
-        <br>
-        <input type="text" id="msg" name="Message" >
-        <br>
-        <button type="button">Submit</button>
-
-
-
-        
+      <form id="form-control">
+          <label for="name">Name</label><br>
+          <input type="text" id="name" name="user_name" placeholder="John Smith"><br>
+           
+          <div>
+            <label for="mail">E-mail</label><br>
+             <input type="email" id="mail" name="user_mail" placeholder="example@gmai.com">
+          </div>
+        <div>
+          <label for="msg">Message</label><br>
+          <textarea id="msg" name="user_message"></textarea>
+       </div>
+       </form>
+    </div>
         
     </div>
+    <div class="footer"></div>
 </body>
 </html>
