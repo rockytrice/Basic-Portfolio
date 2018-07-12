@@ -12,7 +12,7 @@ h1 {
     
 .container {
  background-color: white;
- margin: 45px 450px 45px 450px;
+ margin: 45px 450px 45px 128px;
  width: 1000px;
 border-style: solid;
 border-width: 1px;
@@ -104,6 +104,7 @@ header {
    border-width: 1px;
 
 }
-#nav {
-    float: right;
+.nav {
+text-align: right;
+margin-right: 250px;
 }
