@@ -2,6 +2,9 @@ body {
     background-image: url("https://www.pastepic.xyz/images/2018/07/10/organic-tilesc4af602b48b7317a.png");
     margin: 0;
 }
+a {
+    color: #777;
+}
 h1 {
     color: #4aaaa5;
     font-size: 25px;
@@ -12,17 +15,17 @@ h1 {
     
 .container {
  background-color: white;
- margin: 45px 450px 45px 128px;
+ margin: 36px 450px 45px 216px;
  width: 1000px;
 border-style: solid;
 border-width: 1px;
 border-color: #dddddd;
-padding-right: 30px;
+
 }
 p {
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.6;
     margin: 25px;
        
@@ -36,14 +39,14 @@ img {
     border-color:  #dddddd;
     margin-right: 15px;
 }
-.footer {
+footer {
 position: fixed;
 left: 0;
+height: 54px;
 bottom: 0;
 width: 100%;
 background-color: #777777;
 color: white;
-text-align: center;
 border-top: solid;
 border-width: 10px;
 border-color: #4aaaa5;
