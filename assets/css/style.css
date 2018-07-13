@@ -168,21 +168,21 @@ input {
     border-color: #dddddd;
     border-width: .5px;
     width: 603px;
-    height: 572px;
+    height: 528px;
     margin-left: 411px;
     background-color: white;
     display: grid;
     grid-template-columns: auto auto auto auto;
-    margin-top: 5px;
+    margin-top: 31px;
 }
 .row {
     margin: 21px;
-    margin-top: 85px;
+    margin-top: 65px;
     margin-left: -114px;}
 
 .row2 {
     margin: 171px;
-    margin-top: 95px;
+    margin-top: 74px;
     margin-left: 119px;
 }
 .footer3 {
