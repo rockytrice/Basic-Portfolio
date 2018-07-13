@@ -162,3 +162,12 @@ input {
 
 }
 
+.container2 {
+    border-style: solid;
+    width: 400px;
+    height: 500px;
+    margin-left: 100px;
+    background-color: white;
+    
+}
+
