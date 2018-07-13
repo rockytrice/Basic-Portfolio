@@ -164,10 +164,20 @@ input {
 
 .container2 {
     border-style: solid;
-    width: 400px;
-    height: 500px;
-    margin-left: 100px;
+    width: 603px;
+    height: 572px;
+    margin-left: 411px;
     background-color: white;
-    
+    display: grid;
+    grid-template-columns: auto auto auto auto;
 }
+.row {
+    margin: 21px;
+    margin-top: 85px;
+    margin-left: -114px;}
+.row2 {
+    margin: 171px;
+    margin-top: 30px;
+}
+
 
