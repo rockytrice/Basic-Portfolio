@@ -148,6 +148,17 @@ input {
     width: 97%;
     line-height: 1.6;
     margin-bottom: 10px;
+}
+.button {
+    width: 77px;
+    height: 30px;
+    margin-top: 8px;
+    text-align: center;
+    margin-left: 4px;
+    background-color: #4aaaa5;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 5px;
 
 }
 
