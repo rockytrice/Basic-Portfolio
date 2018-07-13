@@ -4,6 +4,7 @@ body {
 }
 a {
     color: #777;
+    font-size: 15px;
 }
 h1 {
     color: #4aaaa5;
@@ -12,7 +13,7 @@ h1 {
     padding-top: 40px;
 }
 
-    
+
 .container {
  background-color: white;
  margin: 36px 450px 45px 216px;
@@ -108,10 +109,14 @@ header {
    text-align: center;
 
 }
+
+
+
 .nav {
 text-align: right;
 margin-right: 250px;
 margin-top: -57px;
+font-size: 20px;
 }
 .logo {
     margin-left: 122px;
@@ -121,4 +126,24 @@ margin-top: -57px;
     background-color: #4aaaa5;
     padding-top: 17px;
     margin-top: 5;
+    
+}
+.nav2 {
+    text-align: right;
+    margin-right: 415px;
+    margin-top:-57px;
+}
+.logo2 {
+    margin-left: 411px;
+    border-style: none;
+    width: 211px;
+    height: 61px;
+    background-color: #4aaaa5;
+    padding-top: 20px;
+    margin-top: -1px;
+
+}
+input {
+    width: 97%;
+    line-height: 1.6;
 }

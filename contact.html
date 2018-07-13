@@ -8,27 +8,31 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-        <ul>
-                <li><a class="active" href="Rocky">Rocky</a></li>
-                <li><a href="#About">About</a></li>
-                <li><a href="#Portfolio">Portfolio</a></li>
-                <li><a href="#Contact">Contact</a></li>
-            </ul>
-    
-    
+        <header>   
+        <div class="logo2">Rocky</div>
+        <div class="nav2">
+
+          <a href="index.html" style="text-decoration:none">About</a>
+          <!-- <div class="v1"></div> -->
+          <a href="portfolio.html" style="text-decoration:none">Portfolio</a>
+          <!-- <div class="v2"></div> -->
+          <a href="contact.html" style="text-decoration:none">Contact</a>
+        </div>
+    </div>
+    </header>
     <div class="contact-form">
          <h1>Contact</h1>
          <hr>
       <form id="form-control">
-          <label for="name">Name</label><br>
-          <input type="text" id="name" name="user_name" placeholder="John Smith"><br>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="user_name" placeholder="John Smith">
            
           <div>
-            <label for="mail">E-mail</label><br>
+            <label for="mail">E-mail</label>
              <input type="email" id="mail" name="user_mail" placeholder="example@gmai.com">
           </div>
         <div>
-          <label for="msg">Message</label><br>
+          <label for="msg">Message</label>
           <textarea id="msg" name="user_message"></textarea>
        </div>
        </form>
