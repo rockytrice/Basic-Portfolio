@@ -11,6 +11,7 @@ h1 {
     font-size: 25px;
     padding-left: 25px;
     padding-top: 40px;
+    margin-top: -16px;
 }
 
 
@@ -164,20 +165,36 @@ input {
 
 .container2 {
     border-style: solid;
+    border-color: #dddddd;
+    border-width: .5px;
     width: 603px;
     height: 572px;
     margin-left: 411px;
     background-color: white;
     display: grid;
     grid-template-columns: auto auto auto auto;
+    margin-top: 5px;
 }
 .row {
     margin: 21px;
     margin-top: 85px;
     margin-left: -114px;}
+
 .row2 {
     margin: 171px;
-    margin-top: 30px;
+    margin-top: 95px;
+    margin-left: 119px;
 }
-
+.footer3 {
+    position: fixed;
+left: 0;
+height: 34px;
+bottom: 0;
+width: 100%;
+background-color: #777777;
+color: white;
+border-top: solid;
+border-width: 10px;
+border-color: #4aaaa5;
+}
 
