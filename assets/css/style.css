@@ -197,4 +197,10 @@ border-top: solid;
 border-width: 10px;
 border-color: #4aaaa5;
 }
-
+h3 {
+    height: 25px;
+    width: 30px;
+    border-style: solid;
+    background-color: #4aaaa5;
+    color: white;
+}
